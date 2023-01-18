@@ -12,7 +12,7 @@ const UserDetail = () => {
       <UserCard
         id={userDetails.id}
         login={userDetails.login}
-        url={userDetails.url}
+        html_url={userDetails.html_url}
         created_at={userDetails.created_at}
       />
       <div className="flex space-x-2 p-4 justify-center">
