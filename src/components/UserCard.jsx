@@ -1,6 +1,6 @@
 import React from "react";
 
-const UserCard = ({ id, login, url, created_at }) => {
+const UserCard = ({ id, login, html_url, created_at }) => {
   return (
     <div className="flex justify-center p-5">
       <div className="block p-6 rounded-lg shadow-lg bg-white max-w-sm">
@@ -12,10 +12,10 @@ const UserCard = ({ id, login, url, created_at }) => {
         <p className="text-gray-700 text-base mb-4">
           Profile URL:
           <a
-            href={url}
+            href={html_url}
             className="text-blue-400 hover:text-blue-500 transition duration-300 ease-in-out mb-4"
           >
-            {url}
+            {html_url}
           </a>
         </p>
         <p className="text-gray-700 text-base mb-4">Created at: {created_at}</p>
