@@ -5,6 +5,8 @@ LINK TO FRONT DEPLOY: https://front-test-pyrirwrwr-mcanavari43.vercel.app/
 
 # Getting Started with Create React App
 
+I used tailwind for styles.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
